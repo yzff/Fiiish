@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/comm_bg" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/purch_txt"
+        android:textSize="20sp"
+        android:text="@string/pay_detail"
+        android:layout_marginTop="16dp"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purch_txt"
+        android:textSize="18sp"
+        android:text="@string/pay_comment"
+        android:layout_marginTop="12dp"
+        />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+        
+        <TextView 
+            android:id="@+id/title1"
+			style="@style/BuyTitle"
+			android:text="第1章" />
+        <Button 
+            android:id="@+id/buy1"
+            style="@style/BuyButton2" />
+        <TextView
+            android:id="@+id/price1"
+            style="@style/BuyPrice"
+            android:layout_toLeftOf="@id/buy1"
+            android:text="1元"
+            />"
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+        
+        <TextView 
+            android:id="@+id/title2"
+			style="@style/BuyTitle"
+			android:text="第2章" />
+        <Button 
+            android:id="@+id/buy2"
+            style="@style/BuyButton2" />
+        <TextView
+            android:id="@+id/price2"
+            style="@style/BuyPrice"
+            android:layout_toLeftOf="@id/buy2"
+            android:text="2元"
+            />
+    </RelativeLayout>"
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+        
+        <TextView 
+            android:id="@+id/title3"
+			style="@style/BuyTitle"
+			android:text="第3章~第5章" />
+        <Button 
+            android:id="@+id/buy3"
+            style="@style/BuyButton2" />
+        <TextView
+            android:id="@+id/price3"
+            style="@style/BuyPrice"
+            android:layout_toLeftOf="@id/buy3"
+            android:text="4元"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+        
+        <TextView 
+            android:id="@+id/title4"
+			style="@style/BuyTitle"
+			android:text="第6章~第9章" />
+        <Button 
+            android:id="@+id/buy4"
+            style="@style/BuyButton2" />
+        <TextView
+            android:id="@+id/price4"
+            style="@style/BuyPrice"
+            android:layout_toLeftOf="@id/buy4"
+            android:text="6元"
+            />
+    </RelativeLayout>    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+        
+        <TextView 
+            android:id="@+id/title5"
+			style="@style/BuyTitle"
+			android:text="第10章~第14章" />
+        <Button 
+            android:id="@+id/buy5"
+            style="@style/BuyButton2" />
+        <TextView
+            android:id="@+id/price5"
+            style="@style/BuyPrice"
+            android:layout_toLeftOf="@id/buy5"
+            android:text="8元"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+        
+        <TextView 
+            android:id="@+id/title6"
+			style="@style/BuyTitle"
+			android:text="第15章~第20章" />
+        <Button 
+            android:id="@+id/buy6"
+            style="@style/BuyButton2" />
+        <TextView
+            android:id="@+id/price6"
+            style="@style/BuyPrice"
+            android:layout_toLeftOf="@id/buy6"
+            android:text="10元"
+            />
+    </RelativeLayout>
+</LinearLayout>

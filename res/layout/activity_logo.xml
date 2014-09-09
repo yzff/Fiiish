@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_bg"
+    tools:context="com.manyanger.ui.LogoActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo"
+	 />
+    
+    <ImageButton 
+        android:id="@+id/btn_read"
+        android:layout_width="94dp"
+        android:layout_height="32dp"
+        android:src="@drawable/btn_read"
+        android:background="@color/comm_bg"
+        android:layout_below="@id/logo_img"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="onClick"
+        />
+    
+    <ImageButton 
+        android:id="@+id/btn_brief"
+        android:layout_width="94dp"
+        android:layout_height="32dp"
+        android:src="@drawable/btn_brief"
+        android:background="@color/comm_bg"
+        android:layout_below="@id/btn_read"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="onClick"
+        />
+    
+    <ImageButton 
+        android:id="@+id/btn_about"
+        android:layout_width="94dp"
+        android:layout_height="32dp"
+        android:src="@drawable/btn_about"
+        android:background="@color/comm_bg"
+        android:layout_below="@id/btn_brief"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="onClick"
+        />
+
+
+
+</RelativeLayout>

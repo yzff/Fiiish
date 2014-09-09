@@ -1,0 +1,17 @@
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="comm_bg">#BAB98D</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    
+    <color name="dialog_line">#ff5b00</color>
+    <color name="dialog_title">#ff6600</color>
+    <color name="dialog_content">#333333</color>
+    <color name="dialog_ps">#ff6600</color>
+    <color name="dialog_gray">#666666</color>
+
+    <color name="brief_txt">#43422b</color>
+    <color name="purch_txt">#212121</color>
+</resources>

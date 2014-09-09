@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+          android:id="@+id/img_icon"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:src="@drawable/banner" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <Button 
+                android:id="@+id/purch_btn"
+                style="@style/BuyButton"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/pay_detail" />"
+
+            <com.manyanger.ui.widget.InScrollGridView
+                android:id="@+id/gv_chapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:cacheColorHint="#000"
+                android:listSelector="@color/transparent"
+                android:numColumns="3"
+                android:verticalSpacing="20dp"
+                android:horizontalSpacing="12dp" >
+            </com.manyanger.ui.widget.InScrollGridView>
+            
+           <!--  <Button
+                    android:id="@+id/btn_more"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/more_chapter"
+                    android:onClick="onClick"
+                    android:text="@string/check_more"
+                    android:textColor="@color/white" /> -->
+         </LinearLayout>
+    </ScrollView>
+    
+           
+
+
+</LinearLayout>
